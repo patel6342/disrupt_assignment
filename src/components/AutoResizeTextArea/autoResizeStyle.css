@@ -1,0 +1,10 @@
+
+.textarea-auto-resize {
+    /* resize: none;  */
+    overflow: hidden; 
+    box-sizing: border-box; 
+}
+.innerBox{
+    box-shadow: 1px 1px 6px 0px #0000001A inset;
+ background-color: white;
+}

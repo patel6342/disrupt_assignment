@@ -1,0 +1,11 @@
+.box{
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+linear-gradient(98.42deg, rgba(76, 110, 245, 0) -36.61%, rgba(255, 255, 255, 0.09) 84.12%);
+box-shadow: 0px 1px 8px 0px #00000012;
+
+}
+
+.innerBox{
+    box-shadow: 1px 1px 6px 0px #0000001A inset;
+ background-color: white;
+}

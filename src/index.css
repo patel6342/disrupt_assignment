@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Verdana, sans-serif;
+}
+
+
+.custom-toggle .react-toggle-track {
+  width: 42px;
+  height: 20px;
+  /* border-radius: 10px; */
+  background-color: #c0cada !important;
+}
+
+.custom-toggle .react-toggle-thumb {
+  width: 16px !important;
+  height: 16px !important;
+  border: none !important;
+  margin-top: 1px !important;
+  margin-right: 2px !important;
+}
+.react-toggle--checked .react-toggle-thumb {
+  left: 25px !important;
+  /* border-color: #19AB27; */
+}
+.react-toggle--checked:not(.react-toggle--disabled) .react-toggle-track {
+  background-color: #4c6ef5 !important;
+}
+.react-tagsinput-tag {
+  background-color: #faf6fb !important;
+  border-radius: 2px;
+  border: none;
+  color: #9B3CB4;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding: 5px 10px;
+}
+.react-tagsinput {
+  border: none !important;
+}
+.react-tagsinput-input {
+  width: auto !important;
+}
+.react-tagsinput--focused {
+  border-color: transparent !important;
+}
+.linearbg {
+  background: rgb(248, 250, 254);
+  background: linear-gradient(90deg, #f8fafe 0%, #ffffff 100%);
+}
+
+.blackHeadings {
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: #1d1929;
+}
+textarea {
+  /* resize: none; */
+
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+.textarea-no-border {
+  background-color: white !important; /* Ensures background stays white */
+  opacity: 1 !important; /* Ensures full opacity */
+  /* cursor: not-allowed; Indicates the textarea is not editable */
+}
+
+.textarea-no-border:disabled {
+  background-color: white !important; /* Keeps background white even when disabled */
+  color: black; /* Ensures the text remains readable */
+  opacity: 1 !important; /* Keeps the opacity at 1 */
+}
+.work-sans-style {
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  text-align: left;
+}
+.inter-style {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.inter{
+  font-family: "Inter";
+}
+
+.inter-status-style {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+  text-align: center;
+}
+.work-sans-challengeName-style {
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+.inter-small-style {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  overflow-wrap: break-word;
+  color: #212529;
+}
+.work-sans-not-active-tab-style {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.8px;
+  /* text-align: left; */
+}
+.work-sans-active-style {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  /* text-align: left; */
+}
+
+.work-sans-headerText-style {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  text-align: left;
+}
+.inter-deamndName-style {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.hide-scrollbar {
+  overflow: scroll; /* Enable scrolling */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.custom-answer-style {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+input {
+  outline: none;
+}
+
+.basic-details-style {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: "#1D1929";
+  overflow-wrap: break-word;
+}
+
+.nav-style {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+}
+.username {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: right;
+
+
+
+}
+.profileHeading{
+font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px;
+text-align: left;
+color:#1D1929
+
+}
+
+.info{
+  font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+
+
+}
+
+::-webkit-scrollbar {
+  /* width: 2px; */
+  scrollbar-width: thin;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #F9FAFF; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #708BF72B; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4C6EF5; 
+}
